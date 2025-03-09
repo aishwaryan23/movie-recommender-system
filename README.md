@@ -56,7 +56,7 @@ streamlit run app.py
 
 ## 🏗️ How It Works
 1. **Load Data**: Preprocessed movie dataset is loaded using **Pickle**.
-2. **TF-IDF Vectorization**: Converts movie descriptions into numerical vectors.
+2. **Bag-of-words**: Converts movie descriptions into numerical vectors.
 3. **Cosine Similarity**: Computes the similarity between movies based on textual content.
 4. **Recommend Movies**: Returns the top 5 most similar movies.
 
